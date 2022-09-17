@@ -1,0 +1,47 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+header, main, footer, hr {
+    margin: 1.25rem auto;
+    max-width: 800px;
+}
+
+header {
+    background-color: green;
+    color: white;
+    padding: 1.24rem;
+}
+
+header img {
+    max-width: 55%;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.name {
+    display: flex;
+    padding:1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+header, footer {
+    border-radius: 15px;
+    box-shadow: 10px 10px  5px black;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
