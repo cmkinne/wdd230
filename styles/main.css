@@ -45,3 +45,8 @@ footer {
     background-color: green;
     color: white;
 }
+
+.footer-grid {
+    display: grid;
+    grid-template-rows: auto auto;
+}
