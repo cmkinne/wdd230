@@ -15,8 +15,30 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+img {
+    width: 100%;
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1;
 }
+
+.columns {
+    border-style: groove;
+    border-radius: 7.5px;
+    background-color: lightgrey;
+    margin: 5px
+}
+
+
+.rule {
+    background-color: rgb(61, 61, 138);
+    color: white;
+    margin: 0;
+    padding: 10px 0;
+    border-top-left-radius: 7.5px;
+    border-top-right-radius: 7.5px;
+}
+

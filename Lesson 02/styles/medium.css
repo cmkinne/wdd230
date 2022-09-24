@@ -1,0 +1,14 @@
+@media only screen and (max-width: 600px) {
+
+    header {
+        max-width: auto;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .third {
+        grid-column: 1 / span 2;
+    }
+}
