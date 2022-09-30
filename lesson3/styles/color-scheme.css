@@ -1,25 +1,36 @@
 nav {
     display: flex;
+    justify-content: right;
+}
+
+li {
+    padding: 10px;
+    list-style: none;
 }
 
 a {
-    color: red;
+    color: lightblue;
 }
 
 header, main, footer {
     margin: 1.25rem auto;
-    max-width: 800px;
+    max-width: 960px;
 }
 
 header {
-    background-color: #296643;
+    background-color: darkblue;
     color: #F9F5EF;
 }
 
 body {
     font-family: 'Lora', serif;
     font-size: 18px;
-    line-height: 1.5;    
+    line-height: 1.5;
+    background-color: rgb(146, 212, 235);  
+}
+
+main {
+    text-align: center;
 }
 
 h2 {
@@ -29,7 +40,7 @@ h2 {
 
 footer {
     text-align: center;
-    background-color: #296643;
+    background-color: rgb(145, 146, 167);
     color: #F9F5EF;
 }
 
