@@ -22,6 +22,12 @@ header {
     color: #F9F5EF;
 }
 
+img {
+    float: left;
+    max-height: 100px;
+    margin: 10px;
+}
+
 body {
     font-family: 'Lora', serif;
     font-size: 18px;

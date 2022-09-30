@@ -22,6 +22,12 @@ header {
     color: #F9F5EF;
 }
 
+img {
+    float: left;
+    max-height: 100px;
+    margin: 10px;
+}
+
 h1 {
     padding-left: 10px;
 }
