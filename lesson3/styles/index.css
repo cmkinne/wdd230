@@ -52,3 +52,21 @@ footer {
     display: grid;
     grid-template-rows: auto auto;
 }
+
+@media only screen and (max-width: 640px) {
+    nav {
+        display: block;
+        align-items: center;
+    }
+
+    header {
+        max-width: auto;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+    main {
+        display: block;
+    }
+}
