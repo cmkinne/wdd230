@@ -1,3 +1,5 @@
+
+
 nav button {
     margin: .2rem 2vw;
     background: transparent;
@@ -21,4 +23,11 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
+    color:#F9F5EF;
+    border-top: 1px solid lightblue;
+}
+
+nav ul li a:hover {
+    background-color: lightblue;
+    color: black;
 }
