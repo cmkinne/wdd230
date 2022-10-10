@@ -1,8 +1,8 @@
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 50rem) {
 
 nav button {display: none;}
 
-nav ul {
+nav ul#mainNav {
     display: flex;
     margin-left: 2vw;
     border-left: 1px solid lightblue;
@@ -12,5 +12,7 @@ nav ul li a {
     border: none;
     border-right: 1px solid lightblue;
 }
+
+
     
 }
