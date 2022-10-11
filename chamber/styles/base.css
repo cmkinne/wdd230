@@ -42,9 +42,31 @@ nav ul li a:hover {
     color: black;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main>div {
+    display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows: 300px 300px 300px 300px 600px;
+}
+
+main div div {
+    margin: 20px;
+    background-color: lightblue;
+    align-items: center;
+    text-align: center;
+}
+
 footer {
     display: grid;
     grid-template-columns: 1fr;
+    justify-content: center;
     text-align: center;
+    background-color: darkblue;
+    color: #F9F5EF;
 }
+
 
