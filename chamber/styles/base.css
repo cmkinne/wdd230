@@ -50,7 +50,7 @@ main {
 main>div {
     display: grid;
     grid-template-columns: 350px;
-    grid-template-rows: 300px 300px 300px 300px 600px;
+    grid-template-rows: 300px 300px 300px 300px 300px 600px;
 }
 
 main div div {

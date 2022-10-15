@@ -1,7 +1,12 @@
 @media only screen and (min-width: 35rem) {
 
+header, main, footer, hr {
+    margin: 1.25rem auto;
+}
+
 main>div {
     grid-template-columns: 600px;
+    grid-template-rows: 300px 300px 300px 300px 300px 600px;
 }
     
 }
