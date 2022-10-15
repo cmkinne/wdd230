@@ -2,7 +2,7 @@
 
 header, main, footer, hr {
     margin: 1.25rem auto;
-    max-width: 960px;
+    max-width: 1110px;
 }
 
 nav button {display: none;}
@@ -20,7 +20,7 @@ nav ul li a {
 
 main>div {
     display: grid;
-    grid-template-columns: 245px 245px 245px 245px;
+    grid-template-columns: 300px 245px 245px 300px;
     grid-template-rows: 245px 245px 245px;
 }
 
@@ -45,14 +45,25 @@ main>div {
     grid-row: 3/4;
 }
 
-#container5 {
+.container5 {
     grid-column: 2/4;
     grid-row: 3/4;
+    padding-top: 50px;
 }
 
 #container6 {
     grid-column: 4/4;
     grid-row: 1/4;
+}
+
+.spotlight {
+    height: 31%;
+    margin: 10px;
+    line-height: 1.25rem;
+}
+
+#spot3 {
+    display: block;
 }
 
 .footerGrid {
@@ -76,5 +87,12 @@ main>div {
 #footer4 {
     grid-column: 1/4;
     grid-row: 2/3;
+}
+
+#bottomButton {
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 40px;
+    font-weight: bold;
 }
 }

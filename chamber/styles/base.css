@@ -48,6 +48,14 @@ nav ul li a:hover {
     color: black;
 }
 
+a {
+    color: lightblue;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
 main {
     display: flex;
     justify-content: center;
@@ -60,6 +68,7 @@ button {
     border-radius: 5px;
     padding: 10px 32px;
     font-size: 22px;
+    font-weight: bold;
 }
 
 main>div {
@@ -81,9 +90,13 @@ main p {
     margin: 0;
 }
 
+#spot3 {
+    display: none;
+}
+
 .spotlight {
     height: 45%;
-    border: 1px solid black;
+    border: 1px solid #F9F5EF;
     box-shadow: none;
 }
 
