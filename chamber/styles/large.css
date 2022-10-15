@@ -8,9 +8,14 @@ header, main, footer, hr {
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 110px 50px 30px;
+    grid-template-rows: 110px 50px 35px;
     background-color: darkblue;
     color: #F9F5EF;
+}
+
+h1 {
+    text-align: right;
+    padding-right: 35px;
 }
 
 nav {
@@ -109,4 +114,15 @@ main>div {
     margin-bottom: 20px;
     font-weight: bold;
 }
+
+.footerGrid {
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: 175px 25px;
+}
+
+#footer4 {
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
 }
