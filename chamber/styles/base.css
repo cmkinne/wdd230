@@ -11,6 +11,11 @@ header {
     color: #F9F5EF;
 }
 
+header img {
+    padding-left: 20px;
+    padding-top: 18px;
+}
+
 nav button {
     margin: .2rem 2vw;
     background: transparent;
@@ -29,6 +34,7 @@ nav {
 nav ul {
     list-style-type: none;
     padding: 0;
+    padding-top: 10px;
     margin: 0;
     display: none;
 }
@@ -62,7 +68,7 @@ main {
 }
 
 button {
-    background-color: blue;
+    background-color: rgb(45, 165, 115);
     color: #F9F5EF;
     border: 2px black;
     border-radius: 5px;
