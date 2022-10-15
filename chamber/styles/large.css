@@ -117,12 +117,15 @@ main>div {
 
 .footerGrid {
     grid-template-columns: 370px 370px 370px;
-    grid-template-rows: 175px 25px;
+    grid-template-rows: 175px 35px;
 }
 
 #footer4 {
     grid-column: 1/4;
     grid-row: 2/3;
+}
+footer img {
+    padding-top: 20px;
 }
 
 }
