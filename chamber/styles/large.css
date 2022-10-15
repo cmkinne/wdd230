@@ -5,6 +5,19 @@ header, main, footer, hr {
     max-width: 1110px;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 110px 50px 30px;
+    background-color: darkblue;
+    color: #F9F5EF;
+}
+
+nav {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
 nav button {display: none;}
 
 nav ul#mainNav {
