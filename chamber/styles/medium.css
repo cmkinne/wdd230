@@ -9,4 +9,8 @@ main>div {
     grid-template-rows: 300px 300px 300px 300px 300px 600px;
 }
     
+#container1 {
+    background-size: cover;
+}
+
 }
