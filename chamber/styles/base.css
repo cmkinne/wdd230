@@ -1,7 +1,7 @@
 body {
     font-size: 18px;
     line-height: 1.5;
-    background-color: rgb(233, 175, 98);
+    background-color: rgb(182, 92, 41);
 }
 
 header {
@@ -68,7 +68,7 @@ main {
 }
 
 button {
-    background-color: rgb(45, 165, 115);
+    background-color: rgb(27, 88, 63);
     color: #F9F5EF;
     border: 2px black;
     border-radius: 5px;
