@@ -1,0 +1,24 @@
+body {
+    margin: auto;
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    align-items: center;
+}
+
+.picGrid {
+    display: grid;
+    grid-template-columns: 800px;
+    grid-template-rows: 450px 450px 450px 450px 450px;
+}
+
+.picture {
+    background-color: aquamarine;
+    margin: 25px;    
+}
+
