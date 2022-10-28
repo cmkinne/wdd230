@@ -9,16 +9,17 @@ h1 {
 
 main {
     align-items: center;
+    margin-left: 250px;
 }
 
 .picGrid {
     display: grid;
-    grid-template-columns: 800px;
-    grid-template-rows: 450px 450px 450px 450px 450px;
+    grid-template-columns: 300px;
+    grid-template-rows: 400px 400px 400px 400px 400px;
 }
 
 .picture {
     background-color: aquamarine;
-    margin: 25px;    
+    margin-bottom: 10px;    
 }
 
