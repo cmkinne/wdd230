@@ -4,6 +4,10 @@ header, main, footer, hr {
     margin: 1.25rem auto;
 }
 
+header {
+    font-size: medium;
+}
+
 main>div {
     grid-template-columns: 600px;
     grid-template-rows: 300px 300px 300px 300px 300px 600px;
@@ -22,6 +26,33 @@ main>div {
     padding-right: 200px;
     margin-bottom: 40px;
     font-weight: bold;
+}
+
+.form {
+    grid-template-columns: 1fr 1fr;
+    width: 500px;
+}
+
+label, input {
+    margin-top: 10px;
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: left;
+}
+
+input {
+  display: inline-block;
+  float: left;
+  margin-right: 30px;
+}
+
+#divButton {
+    grid-column: 1/3;
 }
 
 }
