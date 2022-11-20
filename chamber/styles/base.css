@@ -111,6 +111,10 @@ main p {
     color: #F9F5EF;
 }
 
+#container3 {
+    line-height: 25px;
+}
+
 hr {
     color: #F9F5EF;
     background-color: #F9F5EF;

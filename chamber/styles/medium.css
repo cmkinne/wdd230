@@ -17,6 +17,10 @@ main>div {
     background-size: cover;
 }
 
+#container3 {
+    line-height: 25px;
+}
+
 .container5 {
     padding-top: 75px;
 }
