@@ -11,14 +11,19 @@ document.getElementById("copyrightYear").innerHTML = new Date().getFullYear()
 
 document.getElementById("lastUpdated").innerHTML = new Date(document.lastModified).toLocaleString()
 
-
 //weather API
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
+const windSpeed = document.querySelector('#wind-speed');
+const windChill = document.querySelector('#wind-chill');
 const captionDesc = document.querySelector('figcaption');
 
 const url = 
     'https://api.openweathermap.org/data/2.5/weather?q=Phoenix&units=imperial&APPID=437e346f1d953d63444305b1748afbd3';
+
+function calcWindChill(currentTemp, windSpeed) {
+    return 35.74 + 0.6215 * currentTemp - 35.75 * (windSpeed)^0.16 + 0.4275 * currentTemp * (windSpeed)^0.16
+}
 
 function  displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
@@ -28,6 +33,8 @@ function  displayResults(weatherData) {
     
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
+    windSpeed.innerHTML = `<strong>${weatherData.wind.speed.toFixed(0)}</strong>`;
+    windChill.innerHTML = calcWindChill(currentTemp, windSpeed);
     captionDesc.textContent = desc;
 }
 
