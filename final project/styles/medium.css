@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1000px) {
+
+body {
+    max-width: 1000px;
+}
+
+header {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mainGridHome {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+}
