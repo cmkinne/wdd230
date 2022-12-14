@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods Home</title>
+    <meta name="description" content="Final Project Home Page for WDD230">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="bountiful_foods_logo" class="logo">
+        <h1>Bountiful Foods</h1>
+        <nav>
+            <button id="navButton"></button>
+            <ul>
+                <li>
+                    <a href="index.html"><h2>Home</h2></a>
+                </li>
+                <li>
+                    <a href="fresh.html"><h2>Fresh</h2></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="mainGridHome">
+            <div class="homeTopRow" id="homeGridItem-1"> 
+                <img src="images/juice.png" alt="fruit-juice" loading="lazy">
+                <p></p>
+            </div>
+            <div class="homeTopRow" id="homeGridItem-2">  <!-- Call to Action -->
+                <p>Why restrict yourself to the pre-made construct!
+                Stretch your imagination and build your own fruit drink!</p>
+                <div class="buildItButton">
+                    <a href="fresh.html">Build It!</a>
+                </div>
+            </div>
+            <div class="homeTopRow" id="homeGridItem-3"> <!-- Weather API -->
+                <h3>Weather</h3>
+            </div>
+            <div class="homeBotRow" id="homeGridItem-4"> 
+                <h3>Contact Us!</h3>
+                    <ul>
+                        <li>Bountiful Foods</li>
+                        <li>123 East Main Street</li>
+                        <li>Carlsbad, CA 92008</li>
+                        <li>(530) 289-1239</li>
+                    </ul>
+            </div>
+            <div class="homeBotRow" id="homeGridItem-5"> 
+                <h3>Newport Beach!</h3>
+                <p>Beyond the radiant sun, sand and surf, discover the sophisticated charm 
+                    of Newport Beach, California. A place so intoxicating, one taste of the 
+                    perfect life will keep you coming back for more.</p>
+                <p>From sunset cruises to surf lessons, wine tastings to harbor-front promenades, 
+                    we offer more things to do and more ways to spend your stay. We invite you to 
+                    relax, unwind and enjoy picturesque views of Californias' sunrise and sunset 
+                    paradise is what we call it.</p>
+            </div>
+            <div class="homeBotRow" id="homeGridItem-6"> 
+                <img src="images/newport-beach.jpg" alt="Newport Beach" loading="lazy">
+                <p></p>
+            </div>
+        </div>
+        
+    </main>
+    <footer class="footerGrid">
+        <div id="footerLogo">
+            <img src="images/logo.png" alt="bountiful_foods_logo" class="logo" loading="lazy">
+        </div>
+        <div id="footerAddress">
+            <p>Bountiful Foods</p>
+            <p>123 East Main Street</p>
+            <p>Carlsbad, CA 92008</p>
+        </div>
+        <div id="footerContact">
+            <p>contactus@bountiful.com</p>
+            <p>+1 (530) 289-1239</p>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="resource.html"><h2>Resource</h2></a>
+        </div>
+        <div id="footerCopy">
+            &copy; 
+            <span id="copyrightYear"></span> 
+            | Christopher M. Kinne | Arizona | Last Updated: 
+            <span id="lastUpdated"></span>
+        </div>
+    </footer>
+    <script src="scripts/index.js"></script>
+</body> 
+</html>
