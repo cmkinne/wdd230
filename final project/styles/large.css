@@ -116,6 +116,7 @@ img {
 
 #homeGridItem-3 {
     grid-column: 3/4;
+    margin: 10px;
 }
 
 .homeBotRow {
@@ -202,6 +203,44 @@ footer {
     margin-top: 50px;
 }
 
+/* Fresh Page CSS additional */
 
+.freshMain {
+    display: grid;
+    grid-template-columns: 1fr 350px 1fr;
+    font-size: 1.5rem;
+}
+
+form {
+    grid-column: 2/3;
+    background-color: rgb(98, 28, 100);
+    margin-top: 100px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px black;
+}
+
+.form-input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 15px
+}
+
+#divButton {
+    margin-left: 115px;
+    margin-bottom: 20px;
+}
+
+#freshButton {
+    background-color: #4CAF50; /* Green */
+    border: solid 1px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+}
 
 
