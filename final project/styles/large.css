@@ -243,4 +243,29 @@ form {
     border-radius: 15px;
 }
 
+/* About Us CSS */
+
+.aboutUsMain {
+    display: grid;
+    grid-template-columns: 250px 250px 1000px;
+    text-align: center;
+}
+
+#about-h3 {
+    grid-column: 1/4;
+}
+
+#about-1 {
+    grid-column: 1/2;
+    line-height: 2rem;
+}
+
+#about-2 {
+    grid-column: 2/3;
+}
+
+#about-3 {
+    grid-column: 3/4;
+}
+
 
